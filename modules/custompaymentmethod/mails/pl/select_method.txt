@@ -1,0 +1,14 @@
+Cześć, {firstname} {lastname},
+[{shop_url}] 
+
+Wybrano metodę płatności: {payment_name}
+
+Szczegóły płatności:
+{payment_details}
+
+Opis:
+{payment_description}
+
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/]
+

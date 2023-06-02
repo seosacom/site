@@ -1,0 +1,6 @@
+
+.bootstrap .form-control, .bootstrap input[type="text"], .bootstrap input[type="search"], .bootstrap input[type="password"], .bootstrap textarea, .bootstrap select {
+    padding: 8px 8px;
+    font-size: 14px;
+}
+

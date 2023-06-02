@@ -1,0 +1,452 @@
+
+:focus {
+    outline: none !important;
+}
+
+.float-none {
+    float: none !important;
+}
+
+.margin-top {
+    margin-top: 7px;
+}
+
+.float-left {
+    float: left !important;
+}
+
+.float-right {
+    float: right !important;
+}
+
+.margin-right {
+    margin-right: 7px !important;
+}
+
+.margin-right-lg {
+    margin-right: 14px !important;
+}
+
+.display-inline-block {
+    display: inline-block !important;
+}
+
+
+.font-weight-bold {
+    font-weight: bold !important;
+}
+
+.w-25 {
+    width: 25% !important;
+}
+
+.w-50 {
+    width: 50% !important;
+}
+
+.w-75 {
+    width: 75% !important;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.custom_bootstrap .fixed-width-300 {
+    width: 300px !important
+}
+
+.custom_bootstrap .fixed-width-400 {
+    width: 400px !important
+}
+
+.custom_bootstrap .fixed-width-500 {
+    width: 500px !important
+}
+
+.custom_bootstrap .fixed-width-600 {
+    width: 600px !important
+}
+
+.bootstrap .form-horizontal .form-wrapper {
+    max-width: 100%;
+}
+
+.bootstrap .form-horizontal .form-group {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.bootstrap textarea {
+    height: 100px;
+}
+
+.btn_action {
+    padding-top: 15px;
+}
+
+.custom_bootstrap .form-horizontal .control-label {
+    padding-bottom: 5px;
+    padding-right: 0;
+}
+
+.bootstrap #add_payment_method_form.form-horizontal .form-wrapper {
+    max-width: 100%;
+}
+
+.js-switch {
+    margin-bottom: 15px;
+}
+
+.custom_bootstrap .btn.btn-return-back {
+    margin-bottom: 17px;
+    margin-top: 17px;
+}
+
+.custom_bootstrap .btn.btn-add-payment-methods {
+    margin-bottom: 17px;
+    margin-top: 17px;
+}
+
+.btn_action a {
+    display: block !important;
+    margin-bottom: 10px !important;
+    font-size: 21px !important;
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+}
+
+.payment_method {
+    padding: 10px;
+    border: 1px solid #8f8f8f;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.payment_method h3 {
+    height: 2.2em !important;
+    margin: 0 !important;
+    background-color: transparent !important;
+    font-family: Ubuntu Condensed,Helvetica,Arial,sans-serif !important;
+    font-weight: 400 !important;
+}
+
+.row.v15 > div:not(.clearfix) {
+    float: left;
+}
+
+.v15_2 .label.label-success {
+    padding: 3px 5px;
+    background: #65C469;
+    color: #FFFFFF;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+.v15_2 a:hover {
+    text-decoration: underline;
+}
+
+.row.v15 .col_1 {
+    width: 20%;
+}
+
+.row.v15 .col_2 {
+    width: 70%;
+}
+
+.row.v15 .col_3 {
+    width: 10%;
+}
+
+#payment_methods_form .margin-form {
+    padding-left: 0;
+}
+
+.carrier_group {
+    list-style: none;
+    padding: 0;
+    border: 1px solid #ddd;
+}
+
+.carrier_group li {
+    line-height: 29px;
+    padding: 0 10px;
+}
+
+.carrier_group li:not(:last-child) {
+    border-bottom: solid 1px #eaedef;
+}
+
+.break_header {
+    line-height: 40px !important;
+    background: #ade4ff;
+    text-transform: uppercase;
+    border-top: 1px solid #5694ba;
+    border-bottom: 1px solid #5694ba;
+    margin: 0 -20px;
+    color: #333333 !important;
+}
+
+.custom_bootstrap .open > .dropdown-menu {
+    left: -100px;
+}
+
+.payment_method .btn_action .btn {
+    width: 45px;
+    height: 45px;
+    padding: 6px 8px;
+}
+
+.tab_contents img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav-pills > li a:active, .nav-pills > li a:focus {
+    color: #fff;
+    background-color: #00aff0;
+    text-decoration: none;
+}
+
+.nav-pills > li a:hover {
+    text-decoration: none;
+}
+
+.nav-pills ul {
+    padding-left: 25px;
+}
+
+.custom_bootstrap .nav-stacked > li + li {
+    cursor: pointer;
+}
+
+.nav-pills li {
+    word-break: break-all;
+    list-style: none;
+}
+
+.nav li a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 3px;
+    word-break: break-word;
+}
+
+.important {
+    background-color: rgba(252, 255, 33, 0.89);
+    display: inline-block;
+    color: #111 !important;
+    margin: 8px 0 !important;
+}
+
+.panel .panel-body {
+    padding: 0;
+}
+
+.custom_bootstrap .thumbnail, .custom_bootstrap .img-thumbnail {
+    width: auto;
+    margin: 16px auto;
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    .payment_method .btn_action .btn {
+        display: inline-block !important;
+        margin: 10px 5px !important;
+        float: right;
+    }
+}
+
+@media (max-width: 1200px) {
+    .btn-def {
+        margin: 4px 0;
+    }
+}
+
+.tab_manager .col-lg-3 {
+    padding-left: 0;
+}
+
+input {
+    border: 1px solid #bbb;
+}
+
+#add_payment_method_form {
+    max-width: 990px;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+#add_payment_method_form .form-wrapper .form-group:nth-child(30) {
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+}
+
+#add_payment_method_form .form-wrapper .form-group:nth-child(31),
+#add_payment_method_form .form-wrapper .form-group:nth-child(33) {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+#add_payment_method_form h2 {
+    margin-top: 0;
+}
+
+#logo-images-thumbnails img {
+    margin-bottom: 8.5px;
+}
+
+/* blocks */
+
+@media (min-width: 768px) {
+
+    .block-cart-total .col-lg-9 {
+        width: 56%;
+    }
+
+    .block-access .col-lg-6 {
+        width: 100%;
+    }
+
+    .block-access .col-lg-9 {
+        width: 56%;
+    }
+
+    .block-commission .col-lg-9 {
+        width: 56%;
+    }
+
+    .block-discount .col-lg-9 {
+        width: 56%;
+    }
+
+    #configuration_form .col-lg-9 {
+        width: calc(200px - 120px);
+    }
+
+    #configuration_form .col-lg-3 {
+        width: auto;
+    }
+
+    #configuration_form #configuration_form_submit_btn {
+        border-radius: 3px;
+        font-size: 15px;
+        line-height: 1.33;
+        padding: 10px 16px;
+
+        background-color: #00aff0;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    #configuration_form #configuration_form_submit_btn i {
+        display: none;
+    }
+}
+
+.line-45 {
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    border-right: 1px solid #ebebeb;
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.custompaymentmethod-option {
+    margin: 0;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.bootstrap .table thead>tr>th {
+    vertical-align: middle;
+}
+
+/*md-checkbox*/
+
+.md-checkbox {
+    position: relative;
+    margin: 0;
+    margin: initial;
+    text-align: left;
+    width: 18px;
+}
+
+.md-checkbox.md-checkbox-inline {
+    display: inline-block
+}
+
+.md-checkbox.disabled {
+    color: #6c868e
+}
+
+.md-checkbox label {
+    margin-bottom: 0;
+    padding-left: 25px;
+    font-weight: normal;
+}
+
+.md-checkbox i.md-checkbox-control {
+    cursor: pointer
+}
+
+.md-checkbox i.md-checkbox-control:after, .md-checkbox i.md-checkbox-control:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.md-checkbox i.md-checkbox-control:before {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 2px solid #bbcdd2;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background .3s
+}
+
+.md-checkbox input[type=checkbox] {
+    outline: 0;
+    display: none
+}
+
+.md-checkbox input[type=checkbox].indeterminate + i.md-checkbox-control:before, .md-checkbox input[type=checkbox]:checked + i.md-checkbox-control:before {
+    background: #25b9d7;
+    border: none
+}
+
+.md-checkbox input[type=checkbox].indeterminate + i.md-checkbox-control:after, .md-checkbox input[type=checkbox]:checked + i.md-checkbox-control:after {
+    transform: rotate(-45deg);
+    top: 4.5px;
+    left: 3px;
+    width: 14px;
+    height: 7px;
+    border: 2px solid #fff;
+    border-top-style: none;
+    /*! @noflip */
+    border-right-style: none
+}
+
+.md-checkbox input[type=checkbox].indeterminate + i.md-checkbox-control:after {
+    transform: rotate(0);
+    height: 0;
+    top: 9px
+}
+
+.md-checkbox input[type=checkbox]:disabled + i.md-checkbox-control {
+    cursor: not-allowed;
+    opacity: .5
+}
+
+.md-checkbox input[type=checkbox]:disabled + i.md-checkbox-control:before {
+    cursor: not-allowed
+}
+

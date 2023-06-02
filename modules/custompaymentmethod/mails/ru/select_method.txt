@@ -1,0 +1,14 @@
+Здравствуйте, {firstname} {lastname},
+[{shop_url}] 
+
+Выбранный способ оплаты: {payment_name}
+
+Реквизиты:
+{payment_details}
+
+Описание:
+{payment_description}
+
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/]
+

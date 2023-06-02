@@ -1,0 +1,1125 @@
+
+
+/*!
+ *  Font Awesome 4.3.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+    font-family: 'FontAwesome';
+    src: url("../fonts/fontawesome-webfont.eot?v=4.3.0");
+    src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon, .custom_bootstrap .page-sidebar-closed:not(.nav-topbar):not(.mobile-nav) .searchtab:before, .custom_bootstrap [class^="icon-"], .custom_bootstrap [class^="process-icon-"], .custom_bootstrap .alert.alert-warning:before, .custom_bootstrap .alert.alert-danger:before, .custom_bootstrap .alert.alert-success:before, .custom_bootstrap .alert.alert-info:before, .custom_bootstrap .alert.alert-addons:before, .custom_bootstrap .alert.alert-onboarding:before, .custom_bootstrap .alert.alert-message:before, .custom_bootstrap .table td.dragHandle .dragGroup:before, .custom_bootstrap .mce-ico, .custom_bootstrap .chosen-container-single .chosen-single div b, .custom_bootstrap .chosen-container-single .chosen-search:before {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+
+/* makes the font 33% larger relative to the icon container */
+.icon-lg {
+    font-size: 1.33333em;
+    line-height: 0.75em;
+    vertical-align: -15%;
+}
+
+.icon-2x, .custom_bootstrap .page-sidebar-closed:not(.nav-topbar):not(.mobile-nav) .searchtab:before, .custom_bootstrap [class^="icon-Admin"], .custom_bootstrap [class^="process-icon-"] {
+    font-size: 2em;
+}
+
+.icon-3x, .custom_bootstrap .alert.alert-warning:before, .custom_bootstrap .alert.alert-danger:before, .custom_bootstrap .alert.alert-success:before, .custom_bootstrap .alert.alert-info:before, .custom_bootstrap .alert.alert-addons:before, .custom_bootstrap .alert.alert-onboarding:before, .custom_bootstrap .alert.alert-message:before {
+    font-size: 3em;
+}
+
+.icon-4x {
+    font-size: 4em;
+}
+
+.icon-5x {
+    font-size: 5em;
+}
+
+.icon-fw, .custom_bootstrap [class^="icon-Admin"], .custom_bootstrap [class^="process-icon-"] {
+    width: 1.28571em;
+    text-align: center;
+}
+
+.icon-ul {
+    padding-left: 0;
+    margin-left: 2.14286em;
+    list-style-type: none;
+}
+
+.icon-ul > li {
+    position: relative;
+}
+
+.icon-li {
+    position: absolute;
+    left: -2.14286em;
+    width: 2.14286em;
+    top: 0.14286em;
+    text-align: center;
+}
+
+.icon-li.icon-lg {
+    left: -1.85714em;
+}
+
+.icon-border {
+    padding: .2em .25em .15em;
+    border: solid 0.08em #eee;
+    border-radius: .1em;
+}
+
+.pull-right {
+    float: right;
+}
+
+.pull-left {
+    float: left;
+}
+
+.icon.pull-left, .custom_bootstrap .page-sidebar-closed:not(.nav-topbar):not(.mobile-nav) .pull-left.searchtab:before, .custom_bootstrap .pull-left[class^="icon-"], .custom_bootstrap .pull-left[class^="process-icon-"], .custom_bootstrap .pull-left.alert.alert-warning:before, .custom_bootstrap .pull-left.alert.alert-danger:before, .custom_bootstrap .pull-left.alert.alert-success:before, .custom_bootstrap .pull-left.alert.alert-info:before, .custom_bootstrap .pull-left.alert.alert-addons:before, .custom_bootstrap .pull-left.alert.alert-onboarding:before, .custom_bootstrap .pull-left.alert.alert-message:before, .custom_bootstrap .table td.dragHandle .pull-left.dragGroup:before, .custom_bootstrap .pull-left.mce-ico, .custom_bootstrap .chosen-container-single .chosen-single div b.pull-left, .custom_bootstrap .chosen-container-single .pull-left.chosen-search:before {
+    margin-right: .3em;
+}
+
+.icon.pull-right, .custom_bootstrap .page-sidebar-closed:not(.nav-topbar):not(.mobile-nav) .pull-right.searchtab:before, .custom_bootstrap .pull-right[class^="icon-"], .custom_bootstrap .pull-right[class^="process-icon-"], .custom_bootstrap .pull-right.alert.alert-warning:before, .custom_bootstrap .pull-right.alert.alert-danger:before, .custom_bootstrap .pull-right.alert.alert-success:before, .custom_bootstrap .pull-right.alert.alert-info:before, .custom_bootstrap .pull-right.alert.alert-addons:before, .custom_bootstrap .pull-right.alert.alert-onboarding:before, .custom_bootstrap .pull-right.alert.alert-message:before, .custom_bootstrap .table td.dragHandle .pull-right.dragGroup:before, .custom_bootstrap .pull-right.mce-ico, .custom_bootstrap .chosen-container-single .chosen-single div b.pull-right, .custom_bootstrap .chosen-container-single .pull-right.chosen-search:before {
+    margin-left: .3em;
+}
+
+.icon-spin, .custom_bootstrap #content .process-icon-loading {
+    -webkit-animation: fa-spin 2s infinite linear;
+    animation: fa-spin 2s infinite linear;
+}
+
+.icon-pulse {
+    -webkit-animation: fa-spin 1s infinite steps(8);
+    animation: fa-spin 1s infinite steps(8);
+}
+
+@-webkit-keyframes fa-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes fa-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+.icon-rotate-90 {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.icon-rotate-180 {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.icon-rotate-270 {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+.icon-flip-horizontal {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+    -webkit-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+
+.icon-flip-vertical {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+    -webkit-transform: scale(1, -1);
+    -ms-transform: scale(1, -1);
+    transform: scale(1, -1);
+}
+
+:root .icon-rotate-90,
+:root .icon-rotate-180,
+:root .icon-rotate-270,
+:root .icon-flip-horizontal,
+:root .icon-flip-vertical {
+    filter: none;
+}
+
+.icon-stack {
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+}
+
+.icon-stack-1x, .icon-stack-2x {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.icon-stack-1x {
+    line-height: inherit;
+}
+
+.icon-stack-2x {
+    font-size: 2em;
+}
+
+.icon-inverse {
+    color: #fff;
+}
+
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+.icon-glass:before {
+    content: "";
+}
+
+.icon-music:before {
+    content: "";
+}
+
+.icon-search:before, .custom_bootstrap .page-sidebar-closed:not(.nav-topbar):not(.mobile-nav) .searchtab:before, .custom_bootstrap .icon-AdminSearch:before, .custom_bootstrap .chosen-container-single .chosen-search:before {
+    content: "";
+}
+
+.icon-envelope-o:before, .custom_bootstrap .icon-envelope-alt:before, .custom_bootstrap #content .process-icon-envelope:before {
+    content: "";
+}
+
+.icon-heart:before {
+    content: "";
+}
+
+.icon-star:before {
+    content: "";
+}
+
+.icon-star-o:before, .custom_bootstrap .icon-star-empty:before {
+    content: "";
+}
+
+.icon-user:before {
+    content: "";
+}
+
+.icon-film:before {
+    content: "";
+}
+
+.icon-th-large:before {
+    content: "";
+}
+
+.icon-th:before {
+    content: "";
+}
+
+.icon-th-list:before {
+    content: "";
+}
+
+.icon-check:before, .custom_bootstrap #content .process-icon-ok:before {
+    content: "";
+}
+
+.icon-remove:before, .custom_bootstrap #content .process-icon-cancel:before,
+.icon-close:before,
+.icon-times:before,
+.custom_bootstrap .icon-remove:before,
+.custom_bootstrap #content .process-icon-cancel:before {
+    content: "";
+}
+
+.icon-search-plus:before, .custom_bootstrap .icon-zoom-in:before {
+    content: "";
+}
+
+.icon-search-minus:before, .custom_bootstrap .icon-zoom-out:before {
+    content: "";
+}
+
+.icon-power-off:before, .custom_bootstrap .icon-off:before, .custom_bootstrap #content .process-icon-off:before, .custom_bootstrap #content .process-icon-power:before {
+    content: "";
+}
+
+.icon-signal:before {
+    content: "";
+}
+
+.icon-gear:before,
+.icon-cog:before,
+.custom_bootstrap .icon-AdminAdmin:before,
+.custom_bootstrap #content .process-icon-configure:before {
+    content: "";
+}
+
+.icon-refresh:before, .custom_bootstrap #content .process-icon-update:before, .custom_bootstrap #content .process-icon-refresh:before {
+    content: "";
+}
+
+.icon-list-alt:before {
+    content: "";
+}
+
+.icon-lock:before {
+    content: "";
+}
+
+.icon-flag:before {
+    content: "";
+}
+
+.icon-headphones:before {
+    content: "";
+}
+
+.icon-volume-off:before {
+    content: "";
+}
+
+.icon-volume-down:before {
+    content: "";
+}
+
+.icon-volume-up:before {
+    content: "";
+}
+
+.icon-qrcode:before {
+    content: "";
+}
+
+.icon-barcode:before {
+    content: "";
+}
+
+.icon-tag:before {
+    content: "";
+}
+
+.icon-tags:before, .custom_bootstrap .icon-AdminPriceRule:before {
+    content: "";
+}
+
+.icon-book:before, .custom_bootstrap .icon-AdminCatalog:before {
+    content: "";
+}
+
+.icon-bookmark:before {
+    content: "";
+}
+
+.icon-print:before {
+    content: "";
+}
+
+.icon-camera:before {
+    content: "";
+}
+
+.icon-font:before {
+    content: "";
+}
+
+.icon-bold:before {
+    content: "";
+}
+
+.icon-italic:before {
+    content: "";
+}
+
+.icon-text-height:before {
+    content: "";
+}
+
+.icon-text-width:before {
+    content: "";
+}
+
+.icon-align-left:before {
+    content: "";
+}
+
+.icon-align-center:before {
+    content: "";
+}
+
+.icon-align-right:before {
+    content: "";
+}
+
+.icon-align-justify:before {
+    content: "";
+}
+
+.icon-list:before {
+    content: "";
+}
+
+.icon-dedent:before,
+.icon-outdent:before,
+.custom_bootstrap .icon-indent-left:before {
+    content: "";
+}
+
+.icon-indent:before, .custom_bootstrap .icon-indent-right:before {
+    content: "";
+}
+
+.icon-video-camera:before, .custom_bootstrap .icon-facetime-video:before {
+    content: "";
+}
+
+.icon-photo:before,
+.icon-image:before,
+.icon-picture-o:before,
+.custom_bootstrap .icon-picture:before {
+    content: "";
+}
+
+.icon-pencil:before {
+    content: "";
+}
+
+.icon-map-marker:before {
+    content: "";
+}
+
+.icon-adjust:before {
+    content: "";
+}
+
+.icon-tint:before {
+    content: "";
+}
+
+.icon-edit:before, .custom_bootstrap #content .process-icon-edit:before,
+.icon-pencil-square-o:before,
+.custom_bootstrap .icon-edit:before,
+.custom_bootstrap #content .process-icon-edit:before {
+    content: "";
+}
+
+.icon-share-square-o:before, .custom_bootstrap .icon-share:before, .custom_bootstrap .icon-share-alt:before {
+    content: "";
+}
+
+.icon-check-square-o:before {
+    content: "";
+}
+
+.icon-arrows:before, .custom_bootstrap .icon-move:before, .custom_bootstrap .table td.dragHandle .dragGroup:before {
+    content: "";
+}
+
+.icon-step-backward:before {
+    content: "";
+}
+
+.icon-fast-backward:before {
+    content: "";
+}
+
+.icon-backward:before {
+    content: "";
+}
+
+.icon-play:before {
+    content: "";
+}
+
+.icon-pause:before {
+    content: "";
+}
+
+.icon-stop:before {
+    content: "";
+}
+
+.icon-forward:before {
+    content: "";
+}
+
+.icon-fast-forward:before {
+    content: "";
+}
+
+.icon-step-forward:before {
+    content: "";
+}
+
+.icon-eject:before {
+    content: "";
+}
+
+.icon-chevron-left:before {
+    content: "";
+}
+
+.icon-chevron-right:before {
+    content: "";
+}
+
+.icon-plus-circle:before, .custom_bootstrap .icon-plus-sign:before, .custom_bootstrap #content .process-icon-newAttributes:before, .custom_bootstrap #content .process-icon-new:before, .custom_bootstrap #content .process-icon-new-url:before, .custom_bootstrap #content .process-icon-newCombination.toolbar-new:before, .custom_bootstrap #content .process-icon-plus:before {
+    content: "";
+}
+
+.icon-minus-circle:before, .custom_bootstrap .icon-minus-sign:before, .custom_bootstrap #content .process-icon-newCombination.toolbar-cancel:before, .custom_bootstrap #content .process-icon-minus:before {
+    content: "";
+}
+
+.icon-times-circle:before, .custom_bootstrap .icon-remove-sign:before, .custom_bootstrap #content .process-icon-close:before {
+    content: "";
+}
+
+.icon-check-circle:before, .custom_bootstrap .icon-ok-sign:before, .custom_bootstrap .alert.alert-success:before {
+    content: "";
+}
+
+.icon-question-circle:before, .custom_bootstrap .icon-question-sign:before, .custom_bootstrap #content .process-icon-help-new:before, .custom_bootstrap #content .process-icon-help:before, .process-icon-help:before, .custom_bootstrap .alert.alert-info:before {
+    content: "";
+}
+
+.icon-info-circle:before, .custom_bootstrap .icon-info-sign:before {
+    content: "";
+}
+
+.icon-crosshairs:before, .custom_bootstrap .icon-screenshot:before {
+    content: "";
+}
+
+.icon-times-circle-o:before, .custom_bootstrap .icon-remove-circle:before {
+    content: "";
+}
+
+.icon-check-circle-o:before, .custom_bootstrap .icon-ok-circle:before {
+    content: "";
+}
+
+.icon-ban:before {
+    content: "";
+}
+
+.icon-arrow-left:before {
+    content: "";
+}
+
+.icon-arrow-right:before {
+    content: "";
+}
+
+.icon-arrow-up:before {
+    content: "";
+}
+
+.icon-arrow-down:before {
+    content: "";
+}
+
+.icon-mail-forward:before,
+.icon-share:before,
+.custom_bootstrap .icon-share-alt:before {
+    content: "";
+}
+
+.icon-expand:before, .custom_bootstrap .icon-resize-full:before, .custom_bootstrap #content .process-icon-expand:before {
+    content: "";
+}
+
+.icon-compress:before, .custom_bootstrap .icon-resize-small:before, .custom_bootstrap #content .process-icon-compress:before {
+    content: "";
+}
+
+.icon-plus:before, .custom_bootstrap #content .process-icon-new-module:before {
+    content: "";
+}
+
+.icon-minus:before {
+    content: "";
+}
+
+.icon-asterisk:before {
+    content: "";
+}
+
+.icon-exclamation-circle:before, .custom_bootstrap .icon-exclamation-sign:before, .custom_bootstrap .alert.alert-warning:before {
+    content: "";
+}
+
+.icon-gift:before {
+    content: "";
+}
+
+.icon-leaf:before {
+    content: "";
+}
+
+.icon-fire:before {
+    content: "";
+}
+
+.icon-eye:before, .custom_bootstrap .icon-eye-open:before, .custom_bootstrap #content .process-icon-preview:before, .custom_bootstrap #content .process-icon-previewURL:before {
+    content: "";
+}
+
+.icon-eye-slash:before, .custom_bootstrap .icon-eye-close:before {
+    content: "";
+}
+
+.icon-warning:before,
+.icon-exclamation-triangle:before,
+.custom_bootstrap .icon-warning-sign:before,
+.custom_bootstrap .alert.alert-danger:before {
+    content: "";
+}
+
+.icon-plane:before {
+    content: "";
+}
+
+.icon-calendar:before {
+    content: "";
+}
+
+.icon-random:before {
+    content: "";
+}
+
+.icon-comment:before, .custom_bootstrap .alert.alert-message:before {
+    content: "";
+}
+
+.icon-magnet:before {
+    content: "";
+}
+
+.icon-chevron-up:before {
+    content: "";
+}
+
+.icon-chevron-down:before {
+    content: "";
+}
+
+.icon-retweet:before {
+    content: "";
+}
+
+.icon-shopping-cart:before, .custom_bootstrap #content .process-icon-cart:before {
+    content: "";
+}
+
+.icon-folder:before, .custom_bootstrap .icon-folder-close:before {
+    content: "";
+}
+
+.icon-folder-open:before {
+    content: "";
+}
+
+.icon-arrows-v:before, .custom_bootstrap .icon-resize-vertical:before {
+    content: "";
+}
+
+.icon-arrows-h:before, .custom_bootstrap .icon-resize-horizontal:before {
+    content: "";
+}
+
+.icon-bar-chart-o:before, .custom_bootstrap .icon-bar-chart:before, .custom_bootstrap .icon-AdminParentStats:before, .custom_bootstrap #content .process-icon-stats:before,
+.icon-bar-chart:before,
+.custom_bootstrap .icon-AdminParentStats:before,
+.custom_bootstrap #content .process-icon-stats:before {
+    content: "";
+}
+
+.icon-twitter-square:before, .custom_bootstrap .icon-twitter-sign:before {
+    content: "";
+}
+
+.icon-facebook-square:before, .custom_bootstrap .icon-facebook-sign:before {
+    content: "";
+}
+
+.icon-camera-retro:before {
+    content: "";
+}
+
+.icon-key:before {
+    content: "";
+}
+
+.icon-gears:before,
+.icon-cogs:before,
+.custom_bootstrap .icon-AdminTools:before,
+.custom_bootstrap #content .process-icon-cogs:before {
+    content: "";
+}
+
+.icon-comments:before {
+    content: "";
+}
+
+.icon-thumbs-o-up:before, .custom_bootstrap .icon-thumbs-up-alt:before {
+    content: "";
+}
+
+.icon-thumbs-o-down:before, .custom_bootstrap .icon-thumbs-down-alt:before {
+    content: "";
+}
+
+.icon-star-half:before {
+    content: "";
+}
+
+.icon-heart-o:before, .custom_bootstrap .icon-heart-empty:before {
+    content: "";
+}
+
+.icon-sign-out:before, .custom_bootstrap .icon-signout:before {
+    content: "";
+}
+
+.icon-linkedin-square:before, .custom_bootstrap .icon-linkedin-sign:before {
+    content: "";
+}
+
+.icon-thumb-tack:before, .custom_bootstrap .icon-pushpin:before {
+    content: "";
+}
+
+.icon-external-link:before {
+    content: "";
+}
+
+.icon-sign-in:before, .custom_bootstrap .icon-signin:before {
+    content: "";
+}
+
+.icon-trophy:before {
+    content: "";
+}
+
+.icon-github-square:before, .custom_bootstrap .icon-github-sign:before {
+    content: "";
+}
+
+.icon-upload:before, .custom_bootstrap .icon-upload-alt:before {
+    content: "";
+}
+
+.icon-lemon-o:before, .custom_bootstrap .icon-lemon:before {
+    content: "";
+}
+
+.icon-phone:before {
+    content: "";
+}
+
+.icon-square-o:before, .custom_bootstrap .icon-check-empty:before {
+    content: "";
+}
+
+.icon-bookmark-o:before, .custom_bootstrap .icon-bookmark-empty:before {
+    content: "";
+}
+
+.icon-phone-square:before, .custom_bootstrap .icon-phone-sign:before {
+    content: "";
+}
+
+.icon-twitter:before {
+    content: "";
+}
+
+.icon-facebook-f:before,
+.icon-facebook:before {
+    content: "";
+}
+
+.icon-github:before {
+    content: "";
+}
+
+.icon-unlock:before {
+    content: "";
+}
+
+.icon-credit-card:before, .custom_bootstrap .icon-AdminParentOrders:before, .custom_bootstrap #content .process-icon-payment:before {
+    content: "";
+}
+
+.icon-rss:before {
+    content: "";
+}
+
+.icon-hdd-o:before, .custom_bootstrap .icon-hdd:before {
+    content: "";
+}
+
+.icon-bullhorn:before {
+    content: "";
+}
+
+.icon-bell:before, .custom_bootstrap .icon-bell-alt:before {
+    content: "";
+}
+
+.icon-certificate:before {
+    content: "";
+}
+
+.icon-hand-o-right:before, .custom_bootstrap .icon-hand-right:before {
+    content: "";
+}
+
+.icon-hand-o-left:before, .custom_bootstrap .icon-hand-left:before {
+    content: "";
+}
+
+.icon-hand-o-up:before, .custom_bootstrap .icon-hand-up:before {
+    content: "";
+}
+
+.icon-hand-o-down:before, .custom_bootstrap .icon-hand-down:before {
+    content: "";
+}
+
+.icon-arrow-circle-right:before, .custom_bootstrap .icon-circle-arrow-right:before, .custom_bootstrap #content .process-icon-next:before {
+    content: "";
+}
+
+.icon-arrow-circle-up:before, .custom_bootstrap .icon-circle-arrow-up:before {
+    content: "";
+}
+
+.icon-arrow-circle-down:before, .custom_bootstrap .icon-circle-arrow-down:before {
+    content: "";
+}
+
+.icon-globe:before, .custom_bootstrap .icon-AdminParentLocalization:before {
+    content: "";
+}
+
+.icon-wrench:before, .custom_bootstrap .icon-AdminParentPreferences:before {
+    content: "";
+}
+
+.icon-tasks:before {
+    content: "";
+}
+
+.icon-filter:before {
+    content: "";
+}
+
+.icon-briefcase:before {
+    content: "";
+}
+
+.icon-arrows-alt:before, .custom_bootstrap .icon-fullscreen:before {
+    content: "";
+}
+
+.icon-group:before, .custom_bootstrap .icon-AdminParentCustomer:before,
+.icon-users:before,
+.custom_bootstrap .icon-group:before,
+.custom_bootstrap .icon-AdminParentCustomer:before {
+    content: "";
+}
+
+.icon-chain:before,
+.icon-link:before,
+.custom_bootstrap .icon-AdminShopUrl:before {
+    content: "";
+}
+
+.icon-cloud:before {
+    content: "";
+}
+
+.icon-flask:before, .custom_bootstrap .icon-beaker:before {
+    content: "";
+}
+
+.icon-cut:before,
+.icon-scissors:before,
+.custom_bootstrap .icon-cut:before {
+    content: "";
+}
+
+.icon-copy:before, .custom_bootstrap #content .process-icon-duplicate:before,
+.icon-files-o:before,
+.custom_bootstrap .icon-copy:before,
+.custom_bootstrap #content .process-icon-duplicate:before {
+    content: "";
+}
+
+.icon-paperclip:before, .custom_bootstrap .icon-paper-clip:before {
+    content: "";
+}
+
+.icon-save:before, .custom_bootstrap #content .process-icon-save:before, .custom_bootstrap #content .process-icon-save-and-stay:before, .custom_bootstrap #content .process-icon-save-and-preview:before,
+.icon-floppy-o:before,
+.custom_bootstrap .icon-save:before,
+.custom_bootstrap #content .process-icon-save:before,
+.custom_bootstrap #content .process-icon-save-and-stay:before,
+.custom_bootstrap #content .process-icon-save-and-preview:before {
+    content: "";
+}
+
+.icon-square:before, .custom_bootstrap .icon-sign-blank:before {
+    content: "";
+}
+
+.icon-navicon:before,
+.icon-reorder:before,
+.icon-bars:before,
+.custom_bootstrap .icon-reorder:before {
+    content: "";
+}
+
+.icon-list-ul:before {
+    content: "";
+}
+
+.icon-list-ol:before {
+    content: "";
+}
+
+.icon-strikethrough:before {
+    content: "";
+}
+
+.icon-underline:before {
+    content: "";
+}
+
+.icon-table:before {
+    content: "";
+}
+
+.icon-magic:before, .custom_bootstrap .icon-AdminAttributeGenerator:before {
+    content: "";
+}
+
+.icon-truck:before, .custom_bootstrap .icon-AdminParentShipping:before {
+    content: "";
+}
+
+.icon-pinterest:before {
+    content: "";
+}
+
+.icon-pinterest-square:before, .custom_bootstrap .icon-pinterest-sign:before {
+    content: "";
+}
+
+.icon-google-plus-square:before, .custom_bootstrap .icon-google-plus-sign:before {
+    content: "";
+}
+
+.icon-google-plus:before {
+    content: "";
+}
+
+.icon-money:before {
+    content: "";
+}
+
+.icon-caret-down:before, .custom_bootstrap #content .process-icon-dropdown:before, .custom_bootstrap .chosen-container-single .chosen-single div b:before {
+    content: "";
+}
+
+.icon-caret-up:before {
+    content: "";
+}
+
+.icon-caret-left:before {
+    content: "";
+}
+
+.icon-caret-right:before {
+    content: "";
+}
+
+.icon-columns:before {
+    content: "";
+}
+
+.icon-unsorted:before,
+.icon-sort:before {
+    content: "";
+}
+
+.icon-sort-down:before,
+.icon-sort-desc:before,
+.custom_bootstrap .icon-sort-up:before {
+    content: "";
+}
+
+.icon-sort-up:before,
+.icon-sort-asc:before,
+.custom_bootstrap .icon-sort-down:before {
+    content: "";
+}
+
+.icon-envelope:before {
+    content: "";
+}
+
+.icon-linkedin:before {
+    content: "";
+}
+
+.icon-rotate-left:before, .custom_bootstrap #content .process-icon-reset:before,
+.icon-undo:before {
+    content: "";
+}
+
+.icon-legal:before,
+.icon-gavel:before,
+.custom_bootstrap .icon-legal:before {
+    content: "";
+}
+
+.icon-dashboard:before, .custom_bootstrap .icon-AdminDashboard:before,
+.icon-tachometer:before,
+.custom_bootstrap .icon-dashboard:before,
+.custom_bootstrap .icon-AdminDashboard:before {
+    content: "";
+}
+
+.icon-comment-o:before, .custom_bootstrap .icon-comment-alt:before {
+    content: "";
+}
+
+.icon-comments-o:before, .custom_bootstrap .icon-comments-alt:before {
+    content: "";
+}
+
+.icon-flash:before, .custom_bootstrap .icon-AdminFlash:before,
+.icon-bolt:before {
+    content: "";
+}
+
+.icon-sitemap:before, .custom_bootstrap .icon-AdminShop:before {
+    content: "";
+}
+
+.icon-umbrella:before {
+    content: "";
+}
+
+.icon-paste:before,
+.icon-clipboard:before,
+.custom_bootstrap .icon-paste:before {
+    content: "";
+}
+
+.icon-lightbulb-o:before, .custom_bootstrap .icon-lightbulb:before {
+    content: "";
+}
+
+.icon-exchange:before, .custom_bootstrap #content .process-icon-partial_refund:before {
+    content: "";
+}
+
+.icon-cloud-download:before, .custom_bootstrap #content .process-icon-download:before {
+    content: "";
+}
+
+.icon-cloud-upload:before, .custom_bootstrap #content .process-icon-import:before, .custom_bootstrap #content .process-icon-upload:before {
+    content: "";
+}
+
+.icon-user-md:before {
+    content: "";
+}
+
+.icon-stethoscope:before {
+    content: "";
+}
+
+.icon-suitcase:before {
+    content: "";
+}
+
+.icon-bell-o:before, .custom_bootstrap .icon-bell:before, .custom_bootstrap .icon-bell-alt:before {
+    content: "";
+}
+
+.icon-coffee:before {
+    content: "";
+}
+
+.icon-cutlery:before, .custom_bootstrap .icon-food:before {
+    content: "";
+}
+
+.icon-file-text-o:before, .custom_bootstrap .icon-file-text-alt:before {
+    content: "";
+}
+
+.icon-building-o:before, .custom_bootstrap .icon-building:before {
+    content: "";
+}
+
+.icon-hospital-o:before, .custom_bootstrap .icon-hospital:before {
+    content: "";
+}
+
+.icon-ambulance:before {
+    content: "";
+}
+
+.icon-medkit:before {
+    content: "";
+}
+
+.icon-fighter-jet:before {
+    content: "";
+}
+
+.icon-beer:before {
+    content: "";
+}
+
+.icon-h-square:before, .custom_bootstrap .icon-h-sign:before {
+    content: "";
+}
+
+.icon-plus-square:before, .custom_bootstrap .icon-plus-sign-alt:before {
+    content: "";
+}

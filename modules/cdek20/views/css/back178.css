@@ -1,0 +1,77 @@
+/**
+* 2007-2020 PrestaShop
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Academic Free License (AFL 3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/afl-3.0.php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to license@prestashop.com so we can send you a copy immediately.
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+* versions in the future. If you wish to customize PrestaShop for your
+* needs please refer to http://www.prestashop.com for more information.
+*
+*  @author    PrestaShop SA <contact@prestashop.com>
+*  @copyright 2007-2020 PrestaShop SA
+*  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+*  International Registered Trademark & Property of PrestaShop SA
+*
+* Don't forget to prefix your containers with your own identifier
+* to avoid any conflicts with others containers.
+*/
+
+.bootstrap .nav-tabs li a {
+    font-family: "Ubuntu Condensed",Helvetica,Arial,sans-serif;
+}
+
+.bootstrap .btn {
+    font-size: .875rem;
+}
+
+.bootstrap .form-horizontal .form-wrapper {
+    max-width: 1335px;
+}
+
+
+.margin-right {
+    /*margin-right: 0 !important;*/
+}
+
+#configuration_form_7 .control-label {
+    padding-right: 0;
+}
+
+.bootstrap .form-horizontal .control-label {
+    padding-top: 9px;
+}
+
+.bootstrap .separator + .help-block {
+    /*left: -25%;*/
+}
+
+.bootstrap .help-block {
+    margin-top: 12px;
+}
+
+.bootstrap input + .help-block {
+    max-width: calc(100% - 266px);
+}
+
+.bootstrap .prestashop-switch {
+    margin-top: 9px;
+    margin-bottom: -1px;
+}
+
+.bootstrap .control-label {
+    padding-right: 5px;
+}
+
+.bootstrap .form-control, .bootstrap input[type="text"], .bootstrap input[type="search"], .bootstrap input[type="password"], .bootstrap textarea, .bootstrap select {
+    padding: 8px 8px;
+}

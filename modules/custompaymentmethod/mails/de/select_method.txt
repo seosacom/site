@@ -1,0 +1,14 @@
+Hallo, {firstname} {lastname},
+[{shop_url}] 
+
+Zahlungsmethode ausgewählt: {payment_name}
+
+Zahlungsdetails:
+{payment_details}
+
+Beschreibung:
+{payment_description}
+
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/]
+
