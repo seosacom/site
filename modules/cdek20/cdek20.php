@@ -1,6 +1,6 @@
 <?php
 /**
-* 2005-2022 PrestaShop
+* 2005-2022 PrestaShop asdfasdf asdfasdf asdfasdf asdfasdf asdfasdf asdfasdf asdf 
 *
 * NOTICE OF LICENSE
 *
